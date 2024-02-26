@@ -34,6 +34,15 @@ html,body{
     width:100%;
   }
 
+.main-box>div>span{
+  margin-top: 16px;
+  width: 54px;
+  height: 54px;
+  border: 2px solid rgb(216, 215, 215);
+  font-size: 30px;
+}
+
+
   .first-heading{
     text-align: center;
   }
@@ -44,12 +53,16 @@ html,body{
   .third-nav{
     margin-left: auto;
     margin-right: auto;
-    font-size:14px;
-    gap:54px;
+    font-size:18px;
+    gap:45px;
+    font-weight: 500;
+    text-align: center;
   }
 
   .small-nav{
     margin:0 auto;
+    font-weight: 600;
+    font-size: 16px;
   }
 
   .h1{
@@ -65,8 +78,12 @@ html,body{
     border: 4px solid rgb(77, 77, 95)
   }
   .main-img{
-    width: 350px;
+    width: 394px;
     margin-bottom: 33px;
+  }
+  .main-para{
+    width: 100%;
+    padding: 0 24px;
   }
 
   .review-box{
@@ -193,6 +210,11 @@ gap: 0px;
   width: 100%;
 }
 
+.main-img{
+  margin-left: auto;
+    margin-right: auto;
+}
+
 .tag{
   margin:65px auto;
 }
@@ -219,6 +241,7 @@ gap: 15px;
   width: 100%;
   
 }
+
 
 
 

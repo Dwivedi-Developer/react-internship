@@ -58,7 +58,7 @@ function App() {
           <div className='mb-11'><img src='main.png' className='main-img mb-3' />
         <p className='text-sm caption-text text-[#626E79] text-center'>Builder 1</p></div>
         </div>
-        <div className='w-[483px] h-full flex flex-col gap-3'>
+        <div className='w-[483px] h-full flex flex-col gap-3 main-para'>
           <p className='text-[#4B5665]'>
           <span className='text-base h1 font-bold'>WixPro 72-Inch Responsive Website Builder-</span> Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)
           </p>
@@ -84,7 +84,7 @@ function App() {
           <div className='mb-11'><img src='main.png' className='mb-3 main-img' />
         <p className='text-sm text-[#626E79] text-center caption-text'>Builder</p></div>
         </div>
-        <div className='w-[483px] h-full flex flex-col gap-3'>
+        <div className='w-[483px] h-full flex flex-col gap-3 main-para'>
           <p className='text-[#4B5665]'>
           <span className='h1 text-base font-bold'>SiteCraft 68-Inch Ultimate Web Design Studio-</span> Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)
           </p>
@@ -109,7 +109,7 @@ function App() {
           <div className='mb-11'><img src='main.png' className='mb-3 main-img' />
         <p className='text-sm text-[#626E79] text-center caption-text'>Builder 1</p></div>
         </div>
-        <div className='w-[483px] h-full flex flex-col gap-3'>
+        <div className='w-[483px] h-full main-para  flex flex-col gap-3'>
           <p className='text-[#4B5665]'>
           <span className='text-base font-bold h1'>WixPro 72-Inch Responsive Website Builder-</span> Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)
           </p>
@@ -134,7 +134,7 @@ function App() {
           <div className='mb-11'><img src='main.png' className='mb-3 main-img' />
         <p className='text-sm text-[#626E79] text-center mt-16 caption-text'>CDK</p></div>
         </div>
-        <div className='w-[483px] h-full flex flex-col gap-3'>
+        <div className='w-[483px] h-full main-para flex flex-col gap-3'>
           <p className='text-[#4B5665]'>
           <span className='text-base font-bold h1'>CDK Resposive Builder:</span> An extensive library of widgets and apps, and detailed step-by-step guides
           </p>
