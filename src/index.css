@@ -1,13 +1,261 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,body{
+  width: 100vw;
+  height: 100vh;
+}
+.space{
+  word-spacing: 8px;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media screen and (max-width:1030px){
+  html,body{
+    width: auto;
+    height: max-content;
+  }
+  nav{
+    width: 100%;
+    
+  }
+  .inp{
+    display: none;
+  }
+  
+  .main-container{
+    width:100%;
+  }
+
+  .first-heading{
+    text-align: center;
+  }
+
+  .sec-nav{
+    justify-content: center;
+  }
+  .third-nav{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:14px;
+    gap:54px;
+  }
+
+  .small-nav{
+    margin:0 auto;
+  }
+
+  .h1{
+    font-size:25px;
+  }
+
+  .main-box{
+    margin: 0 auto;
+    width: 75%;
+    flex-direction: column;
+    height: auto;
+    font-size: 1.5rem;
+    border: 4px solid rgb(77, 77, 95)
+  }
+  .main-img{
+    width: 350px;
+    margin-bottom: 33px;
+  }
+
+  .review-box{
+    width: 70%;
+    margin: 25px 0;
+    flex-direction: row;
+  }
+  
+
+  .caption-text{
+    font-size: 1.5rem;
+  }
+
+  .tag{
+   margin: 75px 225px;
+   font-size:20px;
+   height:fit-content;
+   padding:6px;
+   width:max-content;
+  }
+  .tag img{
+    width:50px;
+    height:50px;
+  }
+
+  .tag span{
+    margin:auto 6px;
+  }
+  .pre-footer{
+    justify-content: center;
+    gap: 10px;
+    
+
+  }
+
+  footer{
+    width: 100%;
+  }
+
+  .after-footer{
+    justify-content: space-evenly;
+    font-size: 30px;
+    gap:8rem;
+  }
+}
+
+@media screen and (max-width:702px){
+  html,body{
+    width: auto;
+    height: max-content;
+  }
+
+.first-heading{
+  font-size:30px;
+  font-weight:600;
+}
+
+nav{
+  width:100%;
+  gap:5px;
+}
+.nav-div{
+ width: 30px;
+ background: transparent;
+ border: none;
+}
+.nav-p{
+  font-size: 11px;
+}
+
+.first-heading{
+  font-size: 24px;
+}
+
+.sec-nav{
+  justify-content: normal;
+  gap: 25px;
+}
+.sec-nav>div {
+  align-items: center;
+}
+.sec-nav div{
+  font-size: 12px;
+}
+
+.sec-nav>div p{
+  text-align: center;
+}
+
+
+.sec-nav>div img{
+  margin-right: 6px;
+  width: 35px;
+  height: 30px;
+  padding: 0;
+}
+
+.third-nav{
+  text-align: center;
+padding: 0;
+gap: 0px;
+ font-size: 11.5px;
+}
+
+.third-nav p{
+ padding:0 4px;
+  border-right: 1px solid gray;
+}
+
+.small-nav{
+  gap: 10px;
+}
+
+.space {
+  font-size: 12px;
+  word-spacing: 5px;
+}
+.main-box{
+  width: 100%;
+  padding: 0 24px;
+ 
+}
+.main-box div{
+  width: 100%;
+}
+
+.tag{
+  margin:65px auto;
+}
+
+.review-box div{
+  gap: 5px;
+  justify-content: center;
+  width: 60%;
+  height: fit-content;
+  font-size: 20px;}
+
+  .review-box{
+gap: 15px;
+  }
+
+.sec-main{
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 0 16px;
+  border-bottom: 2px solid gray;
+}
+
+.sec-main div{
+  width: 100%;
+  
+}
+
+
+
+.main-box>div span{
+  right: 0.5rem;
+  top: 0.5rem;
+}
+
+#root > div h1{
+  font-size: 26px;
+}
+
+.pre-footer p{
+ width: 70%;
+ font-size: 23px;
+ text-align: center;
+}
+
+.pre-footer div{
+  display: flex;
+  align-items: center;
+}
+.pre-footer div>button{
+ width: 80px;
+}
+
+.footer{
+  height: 300px;
+  padding:0 14px;
+}
+
+.after-footer{
+  width: 100%;
+  gap: 10px;
+}
+.after-footer p{
+  font-size: 16px;
+}
+
 }
